@@ -1,0 +1,102 @@
+#1.For Microservice->Infy-Allocation
+SELECT * FROM project_allocation.manager;
+
+create table manager(
+manager_id int  primary key, 
+manager_name varchar(45), 
+no_of_project_mentored int ,
+domain_name varchar(45) ,
+no_of_team_handled int ,
+team_id int ,
+course_code varchar(45));
+
+insert into employee values(102,'cary','Information Technology',	IT,	88,	57);
+
+insert into employee values(1001,	'Dawn',	2,	'Pharmacy',	2	,160	,'CT');
+insert into employee values(1002,	'Crapsy',	1,	'Finance'	,1,	161,	'IT');
+insert into employee values(1003,	'Lucy',	3,	'Digital'	,2,	162,	'ETC');
+insert into employee values(1004,	'Jhon',	1,	'Finance'	,1,	163,	'LT');
+insert into employee values(1005,	'Carter',	2,	'Digital'	,1,	164,	'MECH');
+insert into employee values(1006,	'Dawn',	2,	'Pharmacy',	2,	160,	'CSE');
+insert into employee values(1007,	'Marry',	4,	'Pharmacy',	2,	166,	'BE');
+insert into employee values(1008,	'Jim',	2,	'AI',	3	,167	,'CE');
+insert into employee values(1009,	'Dawn',	2,'Pharmacy',	2,	160,	'BIOTECH');
+insert into employee values(1010,	'Dawn',	2,	'Pharmacy',	2,	160	,'CIVIL');
+
+
+#2.For Microservice->Employee-Training-Management-System
+SELECT * FROM employeetrainingmanagementsystem.employee;
+
+create table employee(
+emp_id int  primary key, 
+name varchar(45) ,
+course_name varchar(45) ,
+course_code varchar(3) ,
+score int ,
+hours_spent int );
+
+insert into employee values(102,'cary','Information Technology',	IT,	88,	57);
+insert into employee values(103	,'hary',	'Computer Science'	,'CSE'	,87,	65);
+insert into employee values(105	,'jerry',	'Computer Science'	,CSE	,86,	85);
+insert into employee values(106	,'laty'	,'Computer Science'	,'CSE',	77,	65);
+insert into employee values(107,	'cramy',	'Computer Science',	'CSE'	,77,	78);
+insert into employee values(108,	'sandy',	'Information Technology'	,'IT',	44,	95);
+insert into employee values(109	,'pity'	,'Information Technology',	'IT',	66,	45);
+insert into employee values(110,	'lomt',	'Information Technology'	,'IT',	92,	75);
+insert into employee values(111,	'gary',	'Information Technology'	,'IT'	,58,	92);
+insert into employee values(112,	'jimmy',	'Information Technology'	,'IT',	75,	47);
+insert into employee values(113,	'lotun',	'Information Technology'	,'IT',	81,	85);
+insert into employee values(114,	'marry',	'Computer Science'	,'CSE',	79,	59);
+insert into employee values(115,	'jatty',	'Computer Science'	,'CSE',	65,	77);
+insert into employee values(116,	'irony',	'Computer Science'	,'CSE',	72	,85);
+insert into employee values(117,	'pitty',	'Information Technology',	'IT',	74,	54);
+insert into employee values(118	,'lucy',	'Computer Science',	'CSE'	,57	,85);
+insert into employee values(119,	'parker',	'Information Technology'	,'IT'	,71	,87);
+insert into employee values(120,	'gimmy',	'Computer Science',	'CSE',	79,	83);
+insert into employee values(121	,'quliy'	,'Information Technology'	,'IT'	,73	,86);
+insert into employee values(122	,'Iron Man',	'Computer Technology',	'CT',	82,	177);
+insert into employee values(123	,'Thor',	'Electronics'	,'BT'	,77,	187);
+insert into employee values(124	,'Charls',	'CDC',	'CSE',	85,	162);
+insert into employee values(125	,'Charls'	,'CDC',	'CSE',	85	,162);
+insert into employee values(127	,'Charls'	,'CDC',	'CSE',	85,	162);
+insert into employee values(187	,'Charls'	,'CDC',	'CSE',	85,	162);
+insert into employee values(197	,'Charls'	,'CDC',	'CSE'	,85	,162);
+insert into employee values(777	,'Charls','MVC',	'CSE',	85	,162);
+
+
+
+#3.For Microservice->Infy-Employee
+SELECT * FROM infytel_employee.infy_employee;
+
+create table infy_employee(
+employee_id int  primary key, 
+employee_name varchar(45) ,
+phone int ,
+project_id int ,
+course_code char(4) ,
+finance_id int );
+
+insert into infy_employee values(101,'Karry',785421965,1004	,M,198);
+insert into infy_employee values(1021 ,Thor	, 89845522,	1002,	J	,180);
+insert into infy_employee values(1022, Larry,	1234567890	, 1003	,B,	181);
+insert into infy_employee values(1025,	Larry,	1511511848,	1004,	B,	182);
+insert into infy_employee values(1026,	Larry,	1511511848,	1004,	B,	182);
+insert into infy_employee values(1027,	Larry,	1234567890,	1004,	L,	182);
+insert into infy_employee values(102	,Harry,	7896542287,	1005,	I,	184);
+insert into infy_employee values(103,	Larry,	8965421327,	1006,	I,	197);
+
+#4.For Microservice->Infy-EmployeeFinance
+SELECT * FROM infytel_finance.infy_employee_finance;
+
+create table infy_employee_finance(
+finance_id  integer primary key,
+salary float8,
+hike integer,
+bonus integer );
+
+
+insert into infy_employee_finance values(1,12000.7,3,5);
+insert into infy_employee_finance values(198,14000.7,2,4);
+insert into infy_employee_finance values(801,16000.7,2,3);
+insert into infy_employee_finance values(802,19000.7,2,2);
+insert into infy_employee_finance values(803,17000.7,1,5);
