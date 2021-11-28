@@ -1,0 +1,29 @@
+url: ADD EMPLOYEE POST->  http://localhost:8080/infytel-employee/addEmployee
+
+     body:
+   {
+              
+    "employeeId":1077,
+    "employeeName": "Larry",
+    "phoneNo": 1511511848,
+    "courseId": "L",
+    "projectId": 1004,
+    "financeId": 182
+  }
+  
+  
+ url: getAllEmployee GET-> http://localhost:8080/infytel-employee/getAllEmployee
+
+url:updateEmployee PUT ->http://localhost:8080/infytel-employee/updateEmployee/1234567890/1
+
+url:deleteEmployee DELETE-> http://localhost:8080/infytel-employee/deleteEmployee/1
+
+//For calling microservice form another microservice
+
+url GET->  http://localhost:8073/infytel-employee/getFullEmployeeProfile/101
+
+
+
+  ETMS----RESTurl--->InfyAllocation ----RESTurl---> Infy-Employee  <------RESTurl---Infy-Finance   
+  
+  Note: as of now we have added only one reccord in the database id 101                            
