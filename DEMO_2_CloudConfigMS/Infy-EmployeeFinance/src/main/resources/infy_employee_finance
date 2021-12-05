@@ -1,0 +1,16 @@
+
+#4.For Microservice->Infy-EmployeeFinance
+SELECT * FROM infytel_finance.infy_employee_finance;
+
+create table infy_employee_finance(
+finance_id  integer primary key,
+salary float8,
+hike integer,
+bonus integer );
+
+
+insert into infy_employee_finance values(1,12000.7,3,5);
+insert into infy_employee_finance values(198,14000.7,2,4);
+insert into infy_employee_finance values(801,16000.7,2,3);
+insert into infy_employee_finance values(802,19000.7,2,2);
+insert into infy_employee_finance values(803,17000.7,1,5);
