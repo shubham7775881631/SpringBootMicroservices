@@ -1,0 +1,39 @@
+2021-12-05 15:14:53.556  INFO 12976 --- [main] c.i.i.InfyAllocationApplication          : No active profile set, falling back to default profiles: default
+2021-12-05 15:14:54.496  INFO 12976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-12-05 15:14:54.581  INFO 12976 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 75ms. Found 1 repository interfaces.
+2021-12-05 15:14:54.893  INFO 12976 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=e16ec1b3-08bd-3e70-bef1-0c559eeef26f
+2021-12-05 15:14:55.081  INFO 12976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6bdb9d37] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-05 15:14:55.237  INFO 12976 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$87f5a034] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-12-05 15:14:55.738  INFO 12976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8072 (http)
+2021-12-05 15:14:55.772  INFO 12976 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-05 15:14:55.772  INFO 12976 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.14]
+2021-12-05 15:14:55.786  INFO 12976 --- [main] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Users\shubham\Downloads\sts-4.12.0.RELEASE\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/shubham/Downloads/sts-4.12.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Users/shubham/Downloads/sts-4.12.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Java\jdk-15.0.2\bin;C:\Users\shubham\Downloads\sts-4.12.0.RELEASE;;.]
+2021-12-05 15:14:55.993  INFO 12976 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-05 15:14:55.993  INFO 12976 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2421 ms
+2021-12-05 15:14:56.777  INFO 12976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-05 15:14:56.782  WARN 12976 --- [main] com.zaxxer.hikari.util.DriverDataSource  : Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2021-12-05 15:14:57.295  INFO 12976 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-05 15:14:57.375  INFO 12976 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2021-12-05 15:14:57.512  INFO 12976 --- [main] org.hibernate.Version                    : HHH000412: Hibernate Core {5.3.7.Final}
+2021-12-05 15:14:57.514  INFO 12976 --- [main] org.hibernate.cfg.Environment            : HHH000206: hibernate.properties not found
+2021-12-05 15:14:57.851  INFO 12976 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.0.4.Final}
+2021-12-05 15:14:58.100  INFO 12976 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-05 15:14:59.214  INFO 12976 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-05 15:15:00.219  INFO 12976 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-12-05 15:15:00.288  WARN 12976 --- [main] aWebConfiguration$JpaWebMvcConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-05 15:15:00.862  INFO 12976 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-12-05 15:15:01.003  INFO 12976 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8072 (http) with context path ''
+2021-12-05 15:15:01.006  INFO 12976 --- [main] c.i.i.InfyAllocationApplication          : Started InfyAllocationApplication in 11.042 seconds (JVM running for 12.44)
+2021-12-05 15:17:16.674  INFO 12976 --- [http-nio-8072-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-05 15:17:16.674  INFO 12976 --- [http-nio-8072-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-12-05 15:17:16.689  INFO 12976 --- [http-nio-8072-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-12-05 15:17:16.869  INFO 12976 --- [http-nio-8072-exec-1] o.h.h.i.QueryTranslatorFactoryInitiator  : HHH000397: Using ASTQueryTranslatorFactory
+2021-12-05 15:43:14.313  INFO 12976 --- [RMI TCP Connection(38)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-05 15:43:14.330  INFO 12976 --- [RMI TCP Connection(38)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-12-05 15:43:14.332  INFO 12976 --- [RMI TCP Connection(38)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-05 15:43:14.349  INFO 12976 --- [RMI TCP Connection(38)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-05 15:43:14.387  INFO 12976 --- [RMI TCP Connection(38)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-05 15:43:14.417  INFO 12976 --- [RMI TCP Connection(38)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-12-05 15:43:14.421  INFO 12976 --- [RMI TCP Connection(38)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Destroying Spring FrameworkServlet 'dispatcherServlet'
