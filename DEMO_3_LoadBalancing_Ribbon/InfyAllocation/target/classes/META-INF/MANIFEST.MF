@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: shubham
+Build-Jdk: 16.0.2
+Implementation-Title: InfyAllocation
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.infy.infyallocation
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/InfyAllocation
+Created-By: Maven Integration for Eclipse
+
