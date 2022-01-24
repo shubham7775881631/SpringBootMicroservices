@@ -1,0 +1,19 @@
+#3.For Microservice->Infy-Employee
+SELECT * FROM infytel_employee.infy_employee;
+
+create table infy_employee(
+employee_id int  primary key, 
+employee_name varchar(45) ,
+phone int ,
+project_id int ,
+course_code char(4) ,
+finance_id int );
+
+insert into infy_employee values(101,'Karry',785421965,1004	,M,198);
+insert into infy_employee values(1021 ,Thor	, 89845522,	1002,	J	,180);
+insert into infy_employee values(1022, Larry,	1234567890	, 1003	,B,	181);
+insert into infy_employee values(1025,	Larry,	1511511848,	1004,	B,	182);
+insert into infy_employee values(1026,	Larry,	1511511848,	1004,	B,	182);
+insert into infy_employee values(1027,	Larry,	1234567890,	1004,	L,	182);
+insert into infy_employee values(102	,Harry,	7896542287,	1005,	I,	184);
+insert into infy_employee values(103,	Larry,	8965421327,	1006,	I,	197);
