@@ -1,0 +1,24 @@
+#1.For Microservice->Infy-Allocation
+SELECT * FROM project_allocation.manager;
+
+create table manager(
+manager_id int  primary key, 
+manager_name varchar(45), 
+no_of_project_mentored int ,
+domain_name varchar(45) ,
+no_of_team_handled int ,
+team_id int ,
+course_code varchar(45));
+
+insert into employee values(102,'cary','Information Technology',	IT,	88,	57);
+
+insert into employee values(1001,	'Dawn',	2,	'Pharmacy',	2	,160	,'CT');
+insert into employee values(1002,	'Crapsy',	1,	'Finance'	,1,	161,	'IT');
+insert into employee values(1003,	'Lucy',	3,	'Digital'	,2,	162,	'ETC');
+insert into employee values(1004,	'Jhon',	1,	'Finance'	,1,	163,	'LT');
+insert into employee values(1005,	'Carter',	2,	'Digital'	,1,	164,	'MECH');
+insert into employee values(1006,	'Dawn',	2,	'Pharmacy',	2,	160,	'CSE');
+insert into employee values(1007,	'Marry',	4,	'Pharmacy',	2,	166,	'BE');
+insert into employee values(1008,	'Jim',	2,	'AI',	3	,167	,'CE');
+insert into employee values(1009,	'Dawn',	2,'Pharmacy',	2,	160,	'BIOTECH');
+insert into employee values(1010,	'Dawn',	2,	'Pharmacy',	2,	160	,'CIVIL');
