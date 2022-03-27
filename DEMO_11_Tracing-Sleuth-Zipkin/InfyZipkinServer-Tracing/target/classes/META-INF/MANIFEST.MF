@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: shubham
+Build-Jdk: 16.0.2
+Implementation-Title: InfyZipkinServer-Tracing
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.infy.zipin.server
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/InfyZipkinServ
+ er-Tracing/
+Created-By: Maven Integration for Eclipse
+
