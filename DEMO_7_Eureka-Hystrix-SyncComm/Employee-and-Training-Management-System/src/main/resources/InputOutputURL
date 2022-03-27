@@ -1,0 +1,14 @@
+
+EmployeeAPI:
+
+GET -> http://localhost:8071/employee/getEmployee/101
+
+PUT -> http://localhost:8071/employee/updateEmployeeCourseName/101/Ctech
+
+remove ->http://localhost:8071/employee/removeEmployee/101
+
+GET -> http://localhost:8071/employee/getEmployeeByPage/CSE/0
+
+MentorAPI
+
+GET  -> http://localhost:8071/mentor/getMentorAndEmployeeByCourseId/77101/CSE/0
