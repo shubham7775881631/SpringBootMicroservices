@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.infy.etms.Employee.and.Training.Management.System.EmployeeAndTrainingManagementSystemApplicationTests
--------------------------------------------------------------------------------
-Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.591 s - in com.infy.etms.Employee.and.Training.Management.System.EmployeeAndTrainingManagementSystemApplicationTests
