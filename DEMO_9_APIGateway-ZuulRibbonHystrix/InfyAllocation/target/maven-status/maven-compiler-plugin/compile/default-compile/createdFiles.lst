@@ -1,0 +1,14 @@
+com\infy\infyallocation\utility\ExceptionControllerAdvice.class
+com\infy\infyallocation\service\ManagerService.class
+com\infy\infyallocation\utility\LoggingAspect.class
+com\infy\infyallocation\entity\Manager.class
+com\infy\infyallocation\utility\ErrorInfo.class
+com\infy\infyallocation\controller\RestTemplateLBRibbon.class
+com\infy\infyallocation\restclass\Employee.class
+com\infy\infyallocation\InfyAllocationApplication.class
+com\infy\infyallocation\controller\RestClient.class
+com\infy\infyallocation\dto\ManagerDTO.class
+com\infy\infyallocation\service\ManagerServiceImpl.class
+com\infy\infyallocation\exception\ManagerException.class
+com\infy\infyallocation\repository\ManagerRepository.class
+com\infy\infyallocation\controller\ManagerAPI.class
