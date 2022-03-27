@@ -1,0 +1,21 @@
+
+
+We hve added the Hystrix by configuring the class ZuulConfigClassForHystrix 
+if anything is error ocuured the this API gateway -Zuul project
+ will the ZuulConfigClassForHystrix class of the fallbackProvider 
+
+
+application.properties
+
+name=Spring
+hystrix.command.default.metrics.rollingStats.timeInMilliseconds=6000
+ribbon.ReadTimeout=6000
+
+
+I have alreday the set runtime exceptin in Infy-Employee-Finance ms if the getid =807
+
+http://localhost:8999/finance/getFinance/807
+
+if we hit the above url the FallbackProvider method will be called 
+
+ 

@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: shubham
+Build-Jdk: 16.0.2
+Implementation-Title: InfyGateway-Zuul
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.infy.gateway.zuul
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/InfyGateway-Zuul
+Created-By: Maven Integration for Eclipse
+
