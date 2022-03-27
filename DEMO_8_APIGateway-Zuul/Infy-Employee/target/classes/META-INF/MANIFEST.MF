@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: shubham
+Build-Jdk: 16.0.2
+Implementation-Title: demo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.infy.employee
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/Infy-Employee
+Created-By: Maven Integration for Eclipse
+
