@@ -16,4 +16,4 @@ but it executing concatenation and created uncessoru dump in the string constant
 2. this block of code will check the logger itself firsy then try to concatenatate or like avoid the dump in the string constant pool in the heap memory
 
 
-
+****** 2. Use PreparedSatement Sql compliation and yo avoid sql injection†******
