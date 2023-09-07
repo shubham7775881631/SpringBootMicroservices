@@ -1,0 +1,19 @@
+*****1. Always formatting under logger.info*****
+
+//1.Non-Complainant Solution
+log.info("The message is logged " + new Date());
+
+//2. Complaint Solution
+log.info("The message is logged {}" ,new Date());
+
+The reason, avoid unwanted usage of string constant pool in heap memory.
+
+suppose we have move logger to error level. now we dont need info logging
+
+1. This code will do the concatenation first and then check the like which logger is enabled either error or info
+but it executing concatenation and created uncessoru dump in the string constant pool of heap memory
+
+2. this block of code will check the logger itself firsy then try to concatenatate or like avoid the dump in the string constant pool in the heap memory
+
+
+
